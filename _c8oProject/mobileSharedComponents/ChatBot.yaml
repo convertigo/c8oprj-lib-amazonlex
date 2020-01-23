@@ -399,13 +399,13 @@ comment: |
                 varValue: 
                   - xmlizable: 
                     - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-                    - MobileSmartSourceType: plain:params1562052281347.AmazonLEXBotName
+                    - MobileSmartSourceType: script:params1562052281347.AmazonLEXBotName
               ↓botAlias [mobile.components.UIControlVariable-1562052281515]: 
                 comment: new variable
                 varValue: 
                   - xmlizable: 
                     - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-                    - MobileSmartSourceType: plain:params1562052281347.AmazonLEXBotAlias
+                    - MobileSmartSourceType: script:params1562052281347.AmazonLEXBotAlias
               ↓userId [mobile.components.UIControlVariable-1562052281518]: 
                 comment: new variable
                 varValue: 
