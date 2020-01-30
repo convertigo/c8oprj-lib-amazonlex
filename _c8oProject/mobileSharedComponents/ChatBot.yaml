@@ -74,7 +74,7 @@ comment: |
                   textValue: 
                     - xmlizable: 
                       - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-                      - MobileSmartSourceType: plain:Convertigo
+                      - MobileSmartSourceType: script:params1562052281347.toUser
                 ↓Attr [mobile.components.UIAttribute-1562052281392]: 
                   attrName: class
                   attrValue: 
@@ -398,3 +398,5 @@ comment: |
 ↓class [mobile.components.UICompVariable-1580212846603]: 
   value: '''chatarea chatbox'''
 ↓style [mobile.components.UICompVariable-1580217107672]: 
+↓toUser [mobile.components.UICompVariable-1580383902849]: 
+  value: '''Convertigo'''
