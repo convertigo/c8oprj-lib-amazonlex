@@ -270,8 +270,7 @@ comment: |
                    "ionBean": "SpeechToTextAction",
                    "locale": "plain:en-US",
                    "matches": "plain:1",
-                   "prompt": "plain:Please speak now...",
-                   "showPopup": "plain:false"
+                   "prompt": "plain:Please speak now..."
                   }'
                 ↓CustomAction [mobile.components.UICustomAction-1562052281491]: 
                   actionValue: 
