@@ -5,3 +5,9 @@ This library Enables Convertigo to build conversational Apps for Mobile Web and 
 ## Usage
 Import the library in your Studio, and use the interaction sequences.
 
+## Sequences
+
+ * PostTextGetAudio  _Posts a message to Amazon and wait a chatbot Response as text_
+ * PostTextGetText  _Posts a message to Amazon and wait a chatbot Response as Audio_
+
+
