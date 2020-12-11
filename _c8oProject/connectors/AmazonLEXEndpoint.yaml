@@ -5,6 +5,7 @@ port: 443
 server: runtime.lex.us-east-1.amazonaws.com
 ↓InitSignature [transactions.HttpTransaction]: 
   ↑default: true
+  httpPool: global
   handlers: 
     →: |
       '/**
@@ -259,6 +260,7 @@ server: runtime.lex.us-east-1.amazonaws.com
               - ↑value: Content-Type
             - java.lang.String: 
               - ↑value: text/plain; charset=UTF-8
+  httpPool: global
   httpVerb: POST
   responseInCDATA: true
   subDir: bot/{botName}/alias/{botAlias}/user/{userId}/content
@@ -306,6 +308,7 @@ server: runtime.lex.us-east-1.amazonaws.com
               - ↑value: Content-Type
             - java.lang.String: 
               - ↑value: text/plain; charset=UTF-8
+  httpPool: global
   httpVerb: POST
   subDir: bot/{botName}/alias/{botAlias}/user/{userId}/content
   handlers: 
@@ -333,6 +336,7 @@ server: runtime.lex.us-east-1.amazonaws.com
     httpName: __body
 ↓TestPostVanilla [transactions.JsonHttpTransaction]: 
   comment: Only For testing
+  httpPool: global
   httpVerb: POST
   handlers: 
     →: |

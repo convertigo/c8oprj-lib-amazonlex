@@ -1,10 +1,12 @@
-↑convertigo: 7.7.0.m006
+↑convertigo: 7.9.0.m006
 ↓lib_AmazonLEX [core.Project]: 
   comment: This library  enables projects to interact with Amazon LEX chatbots.
-  version: 7.8.0
+  version: 7.9.0
   ↓AmazonLEXEndpoint [connectors.HttpConnector]: 🗏 connectors/AmazonLEXEndpoint.yaml
   ↓Init [sequences.GenericSequence]: 🗏 sequences/Init.yaml
   ↓PostTextGetAudio [sequences.GenericSequence]: 🗏 sequences/PostTextGetAudio.yaml
   ↓PostTextGetText [sequences.GenericSequence]: 🗏 sequences/PostTextGetText.yaml
+  ↓Project_reference [references.ProjectSchemaReference]: 
+    projectName: mobilebuilder_tpl_7_6_0=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_7_6_0.zip
   ↓Mobile_application [core.MobileApplication]: 
     ↓Application [mobile.components.ApplicationComponent]: 🗏 mobileApplication.yaml
