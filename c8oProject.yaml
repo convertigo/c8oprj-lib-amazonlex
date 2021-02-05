@@ -7,6 +7,6 @@
   ↓PostTextGetAudio [sequences.GenericSequence]: 🗏 sequences/PostTextGetAudio.yaml
   ↓PostTextGetText [sequences.GenericSequence]: 🗏 sequences/PostTextGetText.yaml
   ↓Project_reference [references.ProjectSchemaReference]: 
-    projectName: mobilebuilder_tpl_7_6_0=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_7_6_0.zip
+    projectName: mobilebuilder_tpl_7_9_0=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_7_9_0.zip
   ↓Mobile_application [core.MobileApplication]: 
     ↓Application [mobile.components.ApplicationComponent]: 🗏 mobileApplication.yaml
